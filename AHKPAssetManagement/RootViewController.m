@@ -7,16 +7,56 @@
 //
 
 #import "RootViewController.h"
+#import "AssetManager.h"
+#import "Asset.h"
+
+#define EQUIP_ID 0
+#define EQUIP_DESC 1
+#define LAST_SCANNED 2
+#define LOCATION 3
 
 @implementation RootViewController
 
+@synthesize myAM;
+
 - (void)viewDidLoad
 {
+    //Initialize AssetManager
+    AssetManager *tmpAM = [[AssetManager alloc] init];
+    
+    //Read in from plist and populate AssetManager Object
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Assets" ofType:@"plist"];
+    
+    NSArray *assets = [NSArray arrayWithContentsOfFile:path];
+    
+    //Process each array of Asset Info pulled in from the plist
+    for (NSArray *assetInfo in assets) {
+        
+        //Create a temporary asset to store the information and add it to the tmpAsset List
+        Asset *tmpAsset = [[Asset alloc] init];
+        
+        tmpAsset.equipId = [assetInfo objectAtIndex: EQUIP_ID];
+        tmpAsset.equipDesc = [assetInfo objectAtIndex: EQUIP_DESC];
+        tmpAsset.lastScanned = [assetInfo objectAtIndex: LAST_SCANNED];
+        tmpAsset.location = [assetInfo objectAtIndex: LOCATION];
+        
+        //Add temporary asset to assets array and release
+        [tmpAM addAsset: tmpAsset];
+        [tmpAsset release];
+    }
+    
+    self.myAM = tmpAM;
+    
+    [path release];
+    [assets release];
+    [tmpAM release];
     [super viewDidLoad];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    //TODO: Reload Table View
+    
     [super viewWillAppear:animated];
 }
 
@@ -30,8 +70,27 @@
 	[super viewWillDisappear:animated];
 }
 
+//Notifies the view controller that its view was dismissed, covered, or otherwise hidden from view.
 - (void)viewDidDisappear:(BOOL)animated
 {
+    //TODO: Save to plist file from current AssetManager Object
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Assets" ofType:@"plist"];
+    
+    NSMutableArray *tmpArray = [[NSMutableArray alloc] init];
+    
+    for (Asset *asset in self.myAM.assets) {
+        
+        NSArray *tmp = [[NSArray alloc] initWithObjects: asset.equipId, asset.equipDesc, asset.lastScanned, asset.location , nil];
+        
+        [tmpArray addObject: tmp];
+        [tmp release];
+    }
+    
+    [tmpArray writeToFile:path atomically:YES];
+    
+    [tmpArray release];
+    
 	[super viewDidDisappear:animated];
 }
 

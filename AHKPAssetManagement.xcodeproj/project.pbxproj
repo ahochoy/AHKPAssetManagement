@@ -16,23 +16,74 @@
 		199B4CA8148C528B006CE9C7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 199B4CA6148C528B006CE9C7 /* MainWindow.xib */; };
 		199B4CAB148C528B006CE9C7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B4CAA148C528B006CE9C7 /* RootViewController.m */; };
 		199B4CAE148C528B006CE9C7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 199B4CAC148C528B006CE9C7 /* RootViewController.xib */; };
+		199B4CB7148C52A9006CE9C7 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 199B4CB5148C52A9006CE9C7 /* MainWindow-iPad.xib */; };
+		199B4CDC148C563D006CE9C7 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4CDB148C563D006CE9C7 /* libZXingWidget.a */; };
+		199B4CE0148C5775006CE9C7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4CDF148C5775006CE9C7 /* AVFoundation.framework */; };
+		199B4CE2148C577E006CE9C7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4CE1148C577E006CE9C7 /* AudioToolbox.framework */; };
+		199B4CE4148C5789006CE9C7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4CE3148C5789006CE9C7 /* CoreVideo.framework */; };
+		199B4CE6148C5791006CE9C7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4CE5148C5791006CE9C7 /* CoreMedia.framework */; };
+		199B4CE8148C579B006CE9C7 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4CE7148C579B006CE9C7 /* libiconv.dylib */; };
+		199B4CEB148C57A5006CE9C7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4CE9148C57A5006CE9C7 /* AddressBook.framework */; };
+		199B4CEC148C57A5006CE9C7 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4CEA148C57A5006CE9C7 /* AddressBookUI.framework */; };
+		199B4CF2148C58B5006CE9C7 /* AssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B4CF1148C58B5006CE9C7 /* AssetManager.m */; };
+		199B4CFC148C5DE8006CE9C7 /* Assets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 199B4CFB148C5DE8006CE9C7 /* Assets.plist */; };
+		199B4CFF148C6115006CE9C7 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B4CFE148C6115006CE9C7 /* Asset.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199B4CD7148C5599006CE9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199B4CCF148C5598006CE9C7 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		199B4CD9148C5599006CE9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199B4CCF148C5598006CE9C7 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D60398D13DF7CAD006F4B51;
+			remoteInfo = ZXingTests;
+		};
+		199B4CDD148C566C006CE9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199B4CCF148C5598006CE9C7 /* ZXingWidget.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		199B4C90148C528B006CE9C7 /* AHKPAssetManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHKPAssetManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		199B4C94148C528B006CE9C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		199B4C96148C528B006CE9C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		199B4C98148C528B006CE9C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		199B4C9C148C528B006CE9C7 /* AHKPAssetManagement-Info.plist */ = {isa = PBXFileReference; path = "AHKPAssetManagement-Info.plist"; sourceTree = "<group>"; };
+		199B4C9C148C528B006CE9C7 /* AHKPAssetManagement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AHKPAssetManagement-Info.plist"; sourceTree = "<group>"; };
 		199B4C9E148C528B006CE9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		199B4CA0148C528B006CE9C7 /* AHKPAssetManagement-Prefix.pch */ = {isa = PBXFileReference; path = "AHKPAssetManagement-Prefix.pch"; sourceTree = "<group>"; };
+		199B4CA0148C528B006CE9C7 /* AHKPAssetManagement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHKPAssetManagement-Prefix.pch"; sourceTree = "<group>"; };
 		199B4CA1148C528B006CE9C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		199B4CA3148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.h */ = {isa = PBXFileReference; path = AHKPAssetManagementAppDelegate.h; sourceTree = "<group>"; };
+		199B4CA3148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHKPAssetManagementAppDelegate.h; sourceTree = "<group>"; };
 		199B4CA4148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHKPAssetManagementAppDelegate.m; sourceTree = "<group>"; };
 		199B4CA7148C528B006CE9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		199B4CA9148C528B006CE9C7 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		199B4CA9148C528B006CE9C7 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		199B4CAA148C528B006CE9C7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		199B4CAD148C528B006CE9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		199B4CB6148C52A9006CE9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		199B4CCF148C5598006CE9C7 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ../trunk/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
+		199B4CDB148C563D006CE9C7 /* libZXingWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libZXingWidget.a; sourceTree = SOURCE_ROOT; };
+		199B4CDF148C5775006CE9C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		199B4CE1148C577E006CE9C7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		199B4CE3148C5789006CE9C7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		199B4CE5148C5791006CE9C7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		199B4CE7148C579B006CE9C7 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		199B4CE9148C57A5006CE9C7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		199B4CEA148C57A5006CE9C7 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		199B4CF0148C58B5006CE9C7 /* AssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetManager.h; sourceTree = "<group>"; };
+		199B4CF1148C58B5006CE9C7 /* AssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetManager.m; sourceTree = "<group>"; };
+		199B4CFB148C5DE8006CE9C7 /* Assets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Assets.plist; sourceTree = "<group>"; };
+		199B4CFD148C6115006CE9C7 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		199B4CFE148C6115006CE9C7 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +91,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				199B4CEB148C57A5006CE9C7 /* AddressBook.framework in Frameworks */,
+				199B4CEC148C57A5006CE9C7 /* AddressBookUI.framework in Frameworks */,
+				199B4CE8148C579B006CE9C7 /* libiconv.dylib in Frameworks */,
+				199B4CE6148C5791006CE9C7 /* CoreMedia.framework in Frameworks */,
+				199B4CE4148C5789006CE9C7 /* CoreVideo.framework in Frameworks */,
+				199B4CE2148C577E006CE9C7 /* AudioToolbox.framework in Frameworks */,
+				199B4CE0148C5775006CE9C7 /* AVFoundation.framework in Frameworks */,
+				199B4CDC148C563D006CE9C7 /* libZXingWidget.a in Frameworks */,
 				199B4C95148C528B006CE9C7 /* UIKit.framework in Frameworks */,
 				199B4C97148C528B006CE9C7 /* Foundation.framework in Frameworks */,
 				199B4C99148C528B006CE9C7 /* CoreGraphics.framework in Frameworks */,
@@ -55,6 +114,8 @@
 				199B4C9A148C528B006CE9C7 /* AHKPAssetManagement */,
 				199B4C93148C528B006CE9C7 /* Frameworks */,
 				199B4C91148C528B006CE9C7 /* Products */,
+				199B4CDB148C563D006CE9C7 /* libZXingWidget.a */,
+				199B4CCF148C5598006CE9C7 /* ZXingWidget.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +130,13 @@
 		199B4C93148C528B006CE9C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				199B4CE9148C57A5006CE9C7 /* AddressBook.framework */,
+				199B4CEA148C57A5006CE9C7 /* AddressBookUI.framework */,
+				199B4CE7148C579B006CE9C7 /* libiconv.dylib */,
+				199B4CE5148C5791006CE9C7 /* CoreMedia.framework */,
+				199B4CE3148C5789006CE9C7 /* CoreVideo.framework */,
+				199B4CE1148C577E006CE9C7 /* AudioToolbox.framework */,
+				199B4CDF148C5775006CE9C7 /* AVFoundation.framework */,
 				199B4C94148C528B006CE9C7 /* UIKit.framework */,
 				199B4C96148C528B006CE9C7 /* Foundation.framework */,
 				199B4C98148C528B006CE9C7 /* CoreGraphics.framework */,
@@ -81,10 +149,9 @@
 			children = (
 				199B4CA3148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.h */,
 				199B4CA4148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.m */,
-				199B4CA6148C528B006CE9C7 /* MainWindow.xib */,
-				199B4CA9148C528B006CE9C7 /* RootViewController.h */,
-				199B4CAA148C528B006CE9C7 /* RootViewController.m */,
-				199B4CAC148C528B006CE9C7 /* RootViewController.xib */,
+				199B4CBA148C537D006CE9C7 /* Model */,
+				199B4CB8148C5317006CE9C7 /* Views */,
+				199B4CB9148C5323006CE9C7 /* Controllers */,
 				199B4C9B148C528B006CE9C7 /* Supporting Files */,
 			);
 			path = AHKPAssetManagement;
@@ -97,8 +164,48 @@
 				199B4C9D148C528B006CE9C7 /* InfoPlist.strings */,
 				199B4CA0148C528B006CE9C7 /* AHKPAssetManagement-Prefix.pch */,
 				199B4CA1148C528B006CE9C7 /* main.m */,
+				199B4CFB148C5DE8006CE9C7 /* Assets.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		199B4CB8148C5317006CE9C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				199B4CB5148C52A9006CE9C7 /* MainWindow-iPad.xib */,
+				199B4CA6148C528B006CE9C7 /* MainWindow.xib */,
+				199B4CAC148C528B006CE9C7 /* RootViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		199B4CB9148C5323006CE9C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				199B4CA9148C528B006CE9C7 /* RootViewController.h */,
+				199B4CAA148C528B006CE9C7 /* RootViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		199B4CBA148C537D006CE9C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				199B4CF0148C58B5006CE9C7 /* AssetManager.h */,
+				199B4CF1148C58B5006CE9C7 /* AssetManager.m */,
+				199B4CFD148C6115006CE9C7 /* Asset.h */,
+				199B4CFE148C6115006CE9C7 /* Asset.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		199B4CD0148C5598006CE9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199B4CD8148C5599006CE9C7 /* libZXingWidget.a */,
+				199B4CDA148C5599006CE9C7 /* ZXingTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +222,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				199B4CDE148C566C006CE9C7 /* PBXTargetDependency */,
 			);
 			name = AHKPAssetManagement;
 			productName = AHKPAssetManagement;
@@ -136,12 +244,35 @@
 			mainGroup = 199B4C85148C528A006CE9C7;
 			productRefGroup = 199B4C91148C528B006CE9C7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 199B4CD0148C5598006CE9C7 /* Products */;
+					ProjectRef = 199B4CCF148C5598006CE9C7 /* ZXingWidget.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				199B4C8F148C528B006CE9C7 /* AHKPAssetManagement */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		199B4CD8148C5599006CE9C7 /* libZXingWidget.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingWidget.a;
+			remoteRef = 199B4CD7148C5599006CE9C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		199B4CDA148C5599006CE9C7 /* ZXingTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZXingTests.octest;
+			remoteRef = 199B4CD9148C5599006CE9C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		199B4C8E148C528B006CE9C7 /* Resources */ = {
@@ -151,6 +282,8 @@
 				199B4C9F148C528B006CE9C7 /* InfoPlist.strings in Resources */,
 				199B4CA8148C528B006CE9C7 /* MainWindow.xib in Resources */,
 				199B4CAE148C528B006CE9C7 /* RootViewController.xib in Resources */,
+				199B4CB7148C52A9006CE9C7 /* MainWindow-iPad.xib in Resources */,
+				199B4CFC148C5DE8006CE9C7 /* Assets.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,10 +297,20 @@
 				199B4CA2148C528B006CE9C7 /* main.m in Sources */,
 				199B4CA5148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.m in Sources */,
 				199B4CAB148C528B006CE9C7 /* RootViewController.m in Sources */,
+				199B4CF2148C58B5006CE9C7 /* AssetManager.m in Sources */,
+				199B4CFF148C6115006CE9C7 /* Asset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		199B4CDE148C566C006CE9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZXingWidget;
+			targetProxy = 199B4CDD148C566C006CE9C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		199B4C9D148C528B006CE9C7 /* InfoPlist.strings */ = {
@@ -192,6 +335,14 @@
 				199B4CAD148C528B006CE9C7 /* en */,
 			);
 			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		199B4CB5148C52A9006CE9C7 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199B4CB6148C52A9006CE9C7 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -237,8 +388,18 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AHKPAssetManagement/AHKPAssetManagement-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"../trunk/iphone/ZXWidget/Classes/**",
+					../trunk/cpp/core/src,
+				);
 				INFOPLIST_FILE = "AHKPAssetManagement/AHKPAssetManagement-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -250,8 +411,18 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AHKPAssetManagement/AHKPAssetManagement-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"../trunk/iphone/ZXWidget/Classes/**",
+					../trunk/cpp/core/src,
+				);
 				INFOPLIST_FILE = "AHKPAssetManagement/AHKPAssetManagement-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
