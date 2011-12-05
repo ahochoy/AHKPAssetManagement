@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199B4C95148C528B006CE9C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4C94148C528B006CE9C7 /* UIKit.framework */; };
+		199B4C97148C528B006CE9C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4C96148C528B006CE9C7 /* Foundation.framework */; };
+		199B4C99148C528B006CE9C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199B4C98148C528B006CE9C7 /* CoreGraphics.framework */; };
+		199B4C9F148C528B006CE9C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199B4C9D148C528B006CE9C7 /* InfoPlist.strings */; };
+		199B4CA2148C528B006CE9C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B4CA1148C528B006CE9C7 /* main.m */; };
+		199B4CA5148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B4CA4148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.m */; };
+		199B4CA8148C528B006CE9C7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 199B4CA6148C528B006CE9C7 /* MainWindow.xib */; };
+		199B4CAB148C528B006CE9C7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B4CAA148C528B006CE9C7 /* RootViewController.m */; };
+		199B4CAE148C528B006CE9C7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 199B4CAC148C528B006CE9C7 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		199B4C90148C528B006CE9C7 /* AHKPAssetManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHKPAssetManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		199B4C94148C528B006CE9C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		199B4C96148C528B006CE9C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		199B4C98148C528B006CE9C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		199B4C9C148C528B006CE9C7 /* AHKPAssetManagement-Info.plist */ = {isa = PBXFileReference; path = "AHKPAssetManagement-Info.plist"; sourceTree = "<group>"; };
+		199B4C9E148C528B006CE9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199B4CA0148C528B006CE9C7 /* AHKPAssetManagement-Prefix.pch */ = {isa = PBXFileReference; path = "AHKPAssetManagement-Prefix.pch"; sourceTree = "<group>"; };
+		199B4CA1148C528B006CE9C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		199B4CA3148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.h */ = {isa = PBXFileReference; path = AHKPAssetManagementAppDelegate.h; sourceTree = "<group>"; };
+		199B4CA4148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHKPAssetManagementAppDelegate.m; sourceTree = "<group>"; };
+		199B4CA7148C528B006CE9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		199B4CA9148C528B006CE9C7 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		199B4CAA148C528B006CE9C7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		199B4CAD148C528B006CE9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199B4C8D148C528B006CE9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199B4C95148C528B006CE9C7 /* UIKit.framework in Frameworks */,
+				199B4C97148C528B006CE9C7 /* Foundation.framework in Frameworks */,
+				199B4C99148C528B006CE9C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199B4C85148C528A006CE9C7 = {
+			isa = PBXGroup;
+			children = (
+				199B4C9A148C528B006CE9C7 /* AHKPAssetManagement */,
+				199B4C93148C528B006CE9C7 /* Frameworks */,
+				199B4C91148C528B006CE9C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		199B4C91148C528B006CE9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199B4C90148C528B006CE9C7 /* AHKPAssetManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199B4C93148C528B006CE9C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				199B4C94148C528B006CE9C7 /* UIKit.framework */,
+				199B4C96148C528B006CE9C7 /* Foundation.framework */,
+				199B4C98148C528B006CE9C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		199B4C9A148C528B006CE9C7 /* AHKPAssetManagement */ = {
+			isa = PBXGroup;
+			children = (
+				199B4CA3148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.h */,
+				199B4CA4148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.m */,
+				199B4CA6148C528B006CE9C7 /* MainWindow.xib */,
+				199B4CA9148C528B006CE9C7 /* RootViewController.h */,
+				199B4CAA148C528B006CE9C7 /* RootViewController.m */,
+				199B4CAC148C528B006CE9C7 /* RootViewController.xib */,
+				199B4C9B148C528B006CE9C7 /* Supporting Files */,
+			);
+			path = AHKPAssetManagement;
+			sourceTree = "<group>";
+		};
+		199B4C9B148C528B006CE9C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199B4C9C148C528B006CE9C7 /* AHKPAssetManagement-Info.plist */,
+				199B4C9D148C528B006CE9C7 /* InfoPlist.strings */,
+				199B4CA0148C528B006CE9C7 /* AHKPAssetManagement-Prefix.pch */,
+				199B4CA1148C528B006CE9C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199B4C8F148C528B006CE9C7 /* AHKPAssetManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199B4CB1148C528B006CE9C7 /* Build configuration list for PBXNativeTarget "AHKPAssetManagement" */;
+			buildPhases = (
+				199B4C8C148C528B006CE9C7 /* Sources */,
+				199B4C8D148C528B006CE9C7 /* Frameworks */,
+				199B4C8E148C528B006CE9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHKPAssetManagement;
+			productName = AHKPAssetManagement;
+			productReference = 199B4C90148C528B006CE9C7 /* AHKPAssetManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199B4C87148C528A006CE9C7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 199B4C8A148C528A006CE9C7 /* Build configuration list for PBXProject "AHKPAssetManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 199B4C85148C528A006CE9C7;
+			productRefGroup = 199B4C91148C528B006CE9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199B4C8F148C528B006CE9C7 /* AHKPAssetManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199B4C8E148C528B006CE9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199B4C9F148C528B006CE9C7 /* InfoPlist.strings in Resources */,
+				199B4CA8148C528B006CE9C7 /* MainWindow.xib in Resources */,
+				199B4CAE148C528B006CE9C7 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199B4C8C148C528B006CE9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199B4CA2148C528B006CE9C7 /* main.m in Sources */,
+				199B4CA5148C528B006CE9C7 /* AHKPAssetManagementAppDelegate.m in Sources */,
+				199B4CAB148C528B006CE9C7 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		199B4C9D148C528B006CE9C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199B4C9E148C528B006CE9C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		199B4CA6148C528B006CE9C7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199B4CA7148C528B006CE9C7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		199B4CAC148C528B006CE9C7 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199B4CAD148C528B006CE9C7 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		199B4CAF148C528B006CE9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		199B4CB0148C528B006CE9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		199B4CB2148C528B006CE9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AHKPAssetManagement/AHKPAssetManagement-Prefix.pch";
+				INFOPLIST_FILE = "AHKPAssetManagement/AHKPAssetManagement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		199B4CB3148C528B006CE9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AHKPAssetManagement/AHKPAssetManagement-Prefix.pch";
+				INFOPLIST_FILE = "AHKPAssetManagement/AHKPAssetManagement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199B4C8A148C528A006CE9C7 /* Build configuration list for PBXProject "AHKPAssetManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199B4CAF148C528B006CE9C7 /* Debug */,
+				199B4CB0148C528B006CE9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199B4CB1148C528B006CE9C7 /* Build configuration list for PBXNativeTarget "AHKPAssetManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199B4CB2148C528B006CE9C7 /* Debug */,
+				199B4CB3148C528B006CE9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199B4C87148C528A006CE9C7 /* Project object */;
+}
